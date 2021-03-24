@@ -1,7 +1,7 @@
 if [ -e ./bashrc ] ; then
 cat ./bashrc >> ~/.bashrc
 else
-wget https://github.com/jkucharczykone/linux-terminal-bootstrap/blob/master/bashrc
+wget https://raw.githubusercontent.com/jkucharczykone/linux-terminal-bootstrap/master/bashrc
 cat ./bashrc >> ~/.bashrc
 fi
 source ~/.bashrc
